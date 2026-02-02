@@ -116,7 +116,7 @@ for i in range(n_joints):
 # This creates a version of the matrix that only depends on Theta
 M_numeric_sym = MJeff.subs(rob_values)
 
-print("Mass Matrix (Riemannian Metric):")
+print("Mass matrix (Riemannian metric) computed:")
 sp.pprint(sp.simplify(M_numeric_sym).evalf(3))
 
 # 11. Compute the Inverse Mass Matrix (MJeffinv)
@@ -203,7 +203,7 @@ det_g = M_numeric_sym.det()
 K_sym = RiemannCovar[0, 1, 0, 1] / det_g
 K_sym = sp.simplify(K_sym)
 
-print("Gaussian Curvature (K) symbolic expression computed.")
+print("Gaussian Curvature (K) computed:")
 sp.pprint(K_sym.evalf(3))
 
 # 17. Plot K over the range [0, 2*pi]
