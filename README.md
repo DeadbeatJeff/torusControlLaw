@@ -26,6 +26,7 @@ To move from point A to B with minimum energy, we solve the HJB equation for the
 umin​{L(q,u)+∇VTx˙}=0
 
 The resulting control law u=−R−1BTPx accounts for the varying inertia of the robot as it moves across the torus.
+
 💻 Installation & Usage
 
     Clone and Setup:
