@@ -1,4 +1,4 @@
-torusControlLaw: Riemannian Geometry & Hamilton-Jacobi-Bellman (HJB) Optimal Control
+# torusControlLaw: Riemannian Geometry & Hamilton-Jacobi-Bellman (HJB) Optimal Control
 
 This repository provides a complete pipeline for analyzing and controlling a 2-link robotic manipulator within its configuration space (C-space), modeled as a 2-Torus (T2).
 
